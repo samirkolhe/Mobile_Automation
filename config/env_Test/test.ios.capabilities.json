@@ -1,0 +1,8 @@
+{
+  "appium:platformName": "Android",
+  "appium:platformVersion": "15",
+  "appium:deviceName": "Pixel 8 API 35",
+  "appium:app": "/app/android/android-app.apk",
+  "appium:automationName": "UIAutomator2",
+  "appium:autoGrantPermissions": false
+}

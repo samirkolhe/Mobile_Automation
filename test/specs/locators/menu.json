@@ -1,0 +1,14 @@
+{
+  "android": {
+    "hamburgerMenu": "~open menu",
+    "loginButton": "~menu item log in",
+    "logoutButton": "~menu item log out",
+    "verifyProductScreen": "~products screen"
+  },
+  "ios": {
+    "hamburgerMenu": "~open menu",
+    "loginButton": "~menu item log in",
+    "logoutButton": "~menu item log out",
+    "verifyProductScreen": "~products screen"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "android": {
+    "loginPageHeading": "(//android.widget.TextView[@text='Login'])[1]",
+    "usernameLabel": "//android.widget.TextView[@text='Username']",
+    "usernameInput": "~Username input field",
+    "passwordLabel": "(//android.widget.TextView[@text='Password'])[1]",
+    "passwordInput": "~Password input field",
+    "loginButton": "~Login button",
+    "logoutButton": "//android.widget.Button[@resource-id='android:id/button1']",
+    "userNameIsRequired": "//android.widget.TextView[@text='Username is required']",
+    "passwordIsRequired": "//android.widget.TextView[@text='Password is required']",
+    "passwordIncorrect": "//android.widget.TextView[contains(@text,'Provided credentials do not match any user')]",
+    "lockedUserError": "//android.widget.TextView[@text='Sorry, this user has been locked out.']"
+  },
+  "ios": {
+    "usernameInput": "~Username input field",
+    "passwordInput": "~Password input field",
+    "loginButton": "~Login button",
+    "logoutButton": "//android.widget.Button[@resource-id='android:id/button1']",
+    "userNameIsRequired": "//android.widget.TextView[@name='Username is required']",
+    "passwordIsRequired": "//android.widget.TextView[@name='Password is required']",
+    "passwordIncorrect": "//android.widget.TextView[contains(@text,'Provided credentials do not match any user')]"
+  }
+}
