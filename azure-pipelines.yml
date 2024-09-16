@@ -17,5 +17,5 @@ steps:
 
 - script: |
     npm install
-    npm run wdio
+    npm run wdio-android
   displayName: 'npm install and build'
