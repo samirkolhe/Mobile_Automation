@@ -69,7 +69,6 @@ This project is a mobile test automation framework using WebdriverIO, Cucumber, 
 
 ## Running Tests
 
-- To run all tests, use `npm run wdio`
 - To run tests on Android, use `npm run wdio-android`
 - To generate Allure report, use `npm run allure-report`
 - To format code with Prettier, use `npm run prettier`
