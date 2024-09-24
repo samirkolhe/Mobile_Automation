@@ -51,7 +51,7 @@ export const config = {
     ],
   ],
   cucumberOpts: {
-    require: ['./test/step-definitions/steps.js'],
+    require: ['./test/step-definitions/*.js'],
     backtrace: false,
     dryRun: false,
     failFast: false,

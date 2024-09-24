@@ -13,6 +13,7 @@ Feature: Test App Validation
     And user clicks on the Login button to login
     Then user should see the product homepage after successful login
     And user logs out of the application
+
     Examples:
       | userType |
       | STANDARD |
@@ -24,6 +25,7 @@ Feature: Test App Validation
     And user enters <userType> username
     Then user clicks on the Login button to login
     And user receive an error message "Password is required"
+
     Examples:
       | userType    |
       | NO_PASSWORD |
@@ -42,12 +44,13 @@ Feature: Test App Validation
       | LOCKED   | Locked user        |
       | NO_MATCH | Incorrect password |
 
-  Scenario Outline:  Login Fails with <userType> Credentials
+  Scenario Outline: Login Fails with <userType> Credentials
     Given user is on the product homepage
     When user clicks on the hamburger menu
     And user clicks on the Login button
     Then user clicks on the Login button to login
     And user receive an error message "Username is required"
+
     Examples:
       | userType        |
       | NO_USER_DETAILS |
